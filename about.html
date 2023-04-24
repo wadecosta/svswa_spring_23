@@ -3,29 +3,36 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Recycle</title>
-	<link rel="icon" href="img/pngwing.com.png">
-	<!-- <link rel="stylesheet" href="styles/style_about.css"> -->
+	<link rel="icon" href="/images/icon.png">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma-rtl.min.css">
-	<link rel="stylesheet" href="styles/style_about.css">
+	<link rel="stylesheet" href="/styles/style_about.css">
+  <link rel="stylesheet" href="/styles/style_menu.css">
 </head>
 
 <div>
-	<nav class="navbar has-background-dark" role="navigation" aria-label="main navigation">
-  		<div class="navbar-brand">
-    			<a class="navbar-item" href="https://svswa.org/">
-      				<img src="img/pngwing.com.png" width="100%" height="100%">
-   			 </a>
-  		</div>
+	<div id="menu">
+		<nav class="navbar" role="navigation" aria-label="main navigation">
+  			<div class="navbar-brand">
+    				<a class="navbar-item" href="https://svswa.org/">
+      					<img src="images/salinas-valley-recycles-vertical-blue-logo.jpg">
+    				</a>
 
-  		<div id="navbarBasicExample" class="navbar-menu">
-    			<div class="navbar-start has-text-light has-background-dark">
-				<a class="navbar-item has-text-light has-background-dark" href="index.html">Home</a>
-				<a class="navbar-item has-text-success has-background-dark" href="about.html">About</a>
-    			</div>
-  		</div>
-	</nav>
+    				<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      					<span aria-hidden="true"></span>
+      					<span aria-hidden="true"></span>
+      					<span aria-hidden="true"></span>
+    				</a>
+  			</div>
 
+  			<div id="navbarBasicExample" class="navbar-menu">
+    				<div class="navbar-start">
+      					<a href="index.html" class="navbar-item">Home</a>
+      					<a href="about.html" class="navbar-item">About</a>
+				</div>
 
+  			</div>
+		</nav>
+	</div>
 </div>
 
 <body>
@@ -96,5 +103,5 @@
 </body>
 
 
-<script src="script.js"></script>
+<script src="scripts/menu.js"></script>
 </html>
