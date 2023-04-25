@@ -98,7 +98,7 @@ function move() {
       hasCompleted = true;
 
       //Play sound
-      const audio = new Audio("/sounds/win.wav");
+      const audio = new Audio("../sounds/win.wav");
       audio.play();
       
       clearInterval(id);
