@@ -14,7 +14,7 @@ html {
   height: 100%;
   width: 100%;
 
-  background: url("/images/gameBackground.jpg") no-repeat center center fixed; 
+  background: url("../images/gameBackground.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -32,7 +32,7 @@ html {
   height: auto;
   box-sizing: border-box;
   position: fixed;
-  top: 60%;
+  top: 63%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1
@@ -59,23 +59,23 @@ html {
 }
 
 #material1 {
-  background-image: url('/images/materialClay.png');
+  background-image: url('../images/materialClay.png');
 }
 
 #material2 {
-  background-image: url('/images/materialGCL.jpg');
+  background-image: url('../images/materialGCL.jpg');
 }
 
 #material3 {
-  background-image: url('/images/materialPolyethylenePlastic.jpg');
+  background-image: url('../images/materialPolyethylenePlastic.jpg');
 }
 
 #material4 {
-  background-image: url('/images/materialGeonet.jpg');
+  background-image: url('../images/materialGeonet.jpg');
 }
 
 #material5 {
-  background-image: url('/images/materialCohesiveSoil.jpg');
+  background-image: url('../images/materialCohesiveSoil.jpg');
 }
 
 #material1:active, #material2:active, #material3:active {
