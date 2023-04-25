@@ -31,7 +31,7 @@ function drop(event) {
   if (material && material.getAttribute("data-value") == progress) {
 
     //play audio
-    const audio = new Audio("/sounds/success.wav");
+    const audio = new Audio("../sounds/success.wav");
     audio.play();
     
     progress += 1;
@@ -63,7 +63,7 @@ function showErrorCard() {
   const card = cardContainer.querySelector(".card");
 
   //Play sound
-  const audio = new Audio("/sounds/wrong.mp3");
+  const audio = new Audio("../sounds/wrong.mp3");
   audio.play();
 
   cardContainer.style.display = "block";
